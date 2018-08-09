@@ -5,7 +5,7 @@ import accumulator.splitter.NumbersStringSplitter;
 import java.util.List;
 
 public class StringAccumulator {
-    private NumbersStringSplitter numbersStringSplitter;
+    private final NumbersStringSplitter numbersStringSplitter;
 
     public StringAccumulator() {
         numbersStringSplitter = new NumbersStringSplitter();
